@@ -1,0 +1,8 @@
+{
+  "manifest_version": 3,
+  "name": "Score Filler",
+  "version": "2.4",
+  "description": "Fills trainee scores on the open page from copied Excel cells or ClassMarker results. Runs only when you click Run. Sends no data anywhere.",
+  "action": { "default_popup": "popup.html", "default_title": "Score Filler" },
+  "permissions": ["activeTab", "scripting"]
+}

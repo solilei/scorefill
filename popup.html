@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<style>
+  body { width: 380px; font-family: "Segoe UI", sans-serif; font-size: 13px; margin: 10px; }
+  textarea { width: 100%; height: 130px; box-sizing: border-box; font-family: Consolas, monospace; font-size: 12px; }
+  button { margin-top: 6px; padding: 5px 16px; font-size: 13px; cursor: pointer; }
+  pre { white-space: pre-wrap; font-size: 12px; max-height: 280px; overflow-y: auto; background: #f5f5f5; padding: 6px; }
+  .hint { color: #555; margin-bottom: 4px; }
+</style>
+</head>
+<body>
+  <div class="hint">Paste either Excel cells (name column to score column, no header) OR rows copied from the ClassMarker results page. The format is detected automatically.</div>
+  <textarea id="data" spellcheck="false" placeholder="DOE JOHN&#9;&#9;98.70%"></textarea>
+  <label><input type="checkbox" id="dry" checked> Dry run (report only, type nothing)</label><br>
+  <button id="go">Run</button>
+  <pre id="out"></pre>
+  <script src="popup.js"></script>
+</body>
+</html>

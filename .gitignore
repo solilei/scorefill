@@ -1,0 +1,14 @@
+# Local only, never committed
+REQUIREMENTS.md
+tests/
+CLAUDE.md
+HANDOFF.md
+
+# Secrets
+.env
+.env.*
+
+# Editor and tool settings
+.claude/
+.idea
+.vscode
